@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>💝 Surprise for Mithu 💝</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: url('https://i.postimg.cc/ydDPYVvm/cd35dd9de43e3427bb2c8396cb7e72f9.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: rgb(247, 239, 239);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .message {
+      font-size: 1.4rem;
+      font-weight: bold;
+      text-shadow: 1px 1px 4px #000;
+      margin: 20px;
+      opacity: 0;
+      animation: fadeIn 2s ease forwards;
+    }
+
+    .button {
+      margin-top: 15px;
+      padding: 15px 25px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.85);
+      color: rgb(238, 228, 228);
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 2px 2px 10px rgba(239, 225, 225, 0.3);
+      transition: transform 0.3s;
+      opacity: 0;
+      animation: fadeIn 2s ease forwards;
+      animation-delay: 1.5s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+      background-color: rgba(0, 0, 0, 0.95);
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 600px) {
+      .message {
+        font-size: 1.1rem;
+        padding: 0 15px;
+      }
+
+      .button {
+        font-size: 1rem;
+        padding: 12px 20px;
+      }
+
+      body {
+        background-attachment: scroll; /* Prevents zoom/stretch bugs on some mobile browsers */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="message">
+    🌟 𝐇𝐄𝐑𝐄 𝐅𝐈𝐍𝐀𝐋𝐋𝐘 𝐘𝐎𝐔𝐑 𝐖𝐀𝐈𝐓 𝐈𝐒 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐄 💖<br>
+    𝐌𝐈𝐓𝐇𝐔 💫 𝐘𝐎𝐔 𝐇𝐀𝐕𝐄 𝐖𝐀𝐈𝐓𝐄𝐃 𝐅𝐎𝐑 𝟏𝟐 𝐃𝐀𝐘𝐒 ⏳<br>
+    𝐒𝐎 𝐍𝐎𝐖 𝐋𝐄𝐓𝐒 𝐁𝐄𝐆𝐈𝐍 🎉 𝐖𝐈𝐓𝐇 𝐘𝐎𝐔𝐑 𝐒𝐔𝐏𝐑𝐈𝐒𝐄 💝
+  </div>
+
+  <a href="page1.html" class="button">
+    🎈 𝐂𝐋𝐈𝐂𝐊 𝐇𝐄𝐑𝐄 𝐅𝐎𝐑 𝐒𝐔𝐏𝐑𝐈𝐒𝐄 🎊
+  </a>
+
+</body>
+</html>
